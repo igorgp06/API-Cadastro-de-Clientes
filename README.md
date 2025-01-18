@@ -19,6 +19,14 @@ O projeto segue o seguinte padrão de sufixos:
 | [FIX]    | Correção de falhas.                                                     |
 | [DEPLOY] | Relacionado ao primeiro o deploy do projeto. Pode ser usado uma vez só. |
 
+### Tags referentes às seções
+
+Cada seção está sujeita à sua própria versão, sendo elas:
+
+- **1.0**: Backend. 
+- **2.0**: Frontend. 
+- **3.0+**: Qualquer outra atualização, seja pacth, fix, update e etc.
+
 ## Bugs
 
 Problemas/Bugs encontrados ao decorrer do desenvolvimento do projeto serão listados aqui com o seu ID, uma breve descrição, a versão em que foi encontrado e em qual versão foi solucionado.

@@ -7,7 +7,8 @@ interface DeleteCustomerProps {
 class DeleteCustomerService {
     async execute({ id }: DeleteCustomerProps) {
 
-        if(!id) {
+        /* mehlorar o tratamento de erros */
+        if (!id) {
             throw new Error("Solicitação de ID inválida!")
         }
 
@@ -18,7 +19,7 @@ class DeleteCustomerService {
         })
 
 
-        if(!findCustomer) {
+        if (!findCustomer) {
             throw new Error("Cliente inexistente!")
         }
 
@@ -29,7 +30,7 @@ class DeleteCustomerService {
         })
 
         return { message: "Cliente deletado com sucesso!" }
-        
+
     }
 }
 

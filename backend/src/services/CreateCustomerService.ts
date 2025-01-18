@@ -1,4 +1,3 @@
-import { ok } from "assert";
 import prismaClient from "../prisma";
 
 interface CreateCustomerProps {
@@ -9,6 +8,7 @@ interface CreateCustomerProps {
 class CreateCustomerService {
     async execute({ name, email }: CreateCustomerProps) {
 
+        /* mehlorar o tratamento de erros */
         if(!name || !email) {
             throw new Error("Preencha todos os campos!")
         }
