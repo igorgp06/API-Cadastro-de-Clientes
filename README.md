@@ -1,6 +1,6 @@
 # API Cadastro de Clientes
 
-Uma API com frontend e backend responsável por cadastrar e gerenciar clientes. Faz o uso de TypeScript, Node.js e MongoDB como 
+Uma API com frontend e backend responsável por cadastrar e gerenciar clientes. Faz o uso de TypeScript, Node.js, MongoDB e Tailwind.css como 
 principais tecnologias usadas nesse projeto.
 
 ## Controle Versional (GIT)
